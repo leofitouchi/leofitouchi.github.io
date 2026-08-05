@@ -261,7 +261,6 @@ main {
   padding: 42px 0 90px;
 }
 
-main .wrap { max-width: 1360px; }
 
 .tab-panel > .pubs:first-child { margin-top: 8px; }
 
@@ -321,7 +320,7 @@ h2 + .pubs, h3 + .pubs { margin-top: 32px; }
 
 .pubs {
   list-style: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   max-width: 860px;
 }
