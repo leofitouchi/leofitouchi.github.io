@@ -240,12 +240,12 @@ img { max-width: 100%; height: auto; display: block; }
   border-bottom-color: var(--accent);
 }
 
-.about__text a.lab-link {
+.about__text > p:not([class]) a.lab-link {
   color: inherit;
   font-weight: 400;
 }
 
-.about__text a.lab-link:hover {
+.about__text > p:not([class]) a.lab-link:hover {
   color: var(--accent);
   border-bottom-color: var(--accent);
 }
