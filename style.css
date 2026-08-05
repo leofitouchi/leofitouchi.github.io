@@ -104,9 +104,9 @@ img { max-width: 100%; height: auto; display: block; }
   z-index: 1;
   display: block;
   text-align: center;
-  padding: 12px 27px;
+  padding: 10px 22px;
   border-radius: 999px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: var(--muted);
   border: 0;
@@ -428,10 +428,26 @@ a.pub-title:hover {
   .about__portrait { height: auto; }
 }
 
+@media (max-width: 700px) {
+  .tabs .wrap { padding: 0 16px; }
+  .tabs ul {
+    flex-direction: column;
+    border-radius: 22px;
+    gap: 3px;
+  }
+  .tabs li { flex: none; }
+  .tabs a { padding: 10px 16px; font-size: 1.15rem; }
+  .tabs__thumb { display: none; }
+  .tabs a[aria-current="page"] {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 999px;
+    box-shadow: 0 3px 10px rgba(28, 41, 51, 0.15);
+  }
+}
+
 @media (max-width: 640px) {
   body { font-size: 18px; }
   .about__name { font-size: 2.9rem; }
-  .tabs a { padding: 10px 18px; font-size: 1.1rem; }
   main { padding-top: 36px; }
   h2 { margin-top: 56px; }
   .media-grid {
