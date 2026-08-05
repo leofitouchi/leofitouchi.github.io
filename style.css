@@ -423,7 +423,7 @@ a.pub-title:hover {
   .about__portrait { height: auto; }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .tabs .wrap { padding: 0 16px; }
   .tabs ul {
     display: flex;
