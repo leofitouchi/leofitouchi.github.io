@@ -37,12 +37,12 @@ a:hover { border-bottom-color: var(--accent); }
 img { max-width: 100%; height: auto; display: block; }
 
 .wrap {
-  max-width: 1360px;
+  max-width: 1140px;
   margin: 0 auto;
   padding: 0 24px;
 }
 
-.wrap--wide { max-width: 1420px; }
+.wrap--wide { max-width: 1200px; }
 
 /* Section tabs (liquid glass) */
 
@@ -116,8 +116,8 @@ img { max-width: 100%; height: auto; display: block; }
 
 .about {
   display: grid;
-  grid-template-columns: 1fr 430px;
-  gap: 64px;
+  grid-template-columns: 1fr 400px;
+  gap: 56px;
   align-items: stretch;
 }
 
