@@ -116,7 +116,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 .about {
   display: grid;
-  grid-template-columns: 1fr 395px;
+  grid-template-columns: 395px 1fr;
   gap: 44px;
   align-items: stretch;
 }
