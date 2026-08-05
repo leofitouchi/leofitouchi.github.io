@@ -321,12 +321,12 @@ h2 + .pubs, h3 + .pubs { margin-top: 32px; }
   list-style: none;
   margin: 0;
   padding: 0;
-  max-width: 1080px;
+  max-width: 940px;
 }
 
 .pubs li {
-  margin: 0 0 34px;
-  font-size: 1.55rem;
+  margin: 0 0 32px;
+  font-size: 1.45rem;
   line-height: 1.65;
 }
 
