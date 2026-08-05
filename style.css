@@ -309,9 +309,9 @@ h2 + .pubs, h3 + .pubs { margin-top: 32px; }
 
 .pubs {
   list-style: none;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
-  max-width: 1000px;
+  max-width: 1080px;
 }
 
 .pubs li {
