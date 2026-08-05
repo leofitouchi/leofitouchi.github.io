@@ -15,6 +15,7 @@
 *::after { box-sizing: border-box; }
 
 html {
+  font-size: 13px;
   -webkit-text-size-adjust: 100%;
   scroll-behavior: smooth;
 }
@@ -24,7 +25,7 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--sans);
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1.65;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
@@ -47,7 +48,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 .tabs {
   background: #eef0f1;
-  padding: 44px 0 0;
+  padding: 36px 0 0;
 }
 
 .tabs .wrap {
@@ -98,7 +99,7 @@ img { max-width: 100%; height: auto; display: block; }
   position: relative;
   z-index: 1;
   display: inline-block;
-  padding: 15px 34px;
+  padding: 12px 27px;
   border-radius: 999px;
   font-size: 1.5rem;
   font-weight: 600;
@@ -115,8 +116,8 @@ img { max-width: 100%; height: auto; display: block; }
 
 .about {
   display: grid;
-  grid-template-columns: 1fr 480px;
-  gap: 80px;
+  grid-template-columns: 1fr 430px;
+  gap: 64px;
   align-items: stretch;
 }
 
@@ -171,9 +172,9 @@ img { max-width: 100%; height: auto; display: block; }
 .icon-btn {
   display: inline-flex;
   align-items: center;
-  gap: 9px;
-  height: 58px;
-  padding: 0 18px;
+  gap: 8px;
+  height: 48px;
+  padding: 0 15px;
   border: 2px solid #33495a;
   border-radius: 10px;
   color: #33495a;
@@ -187,14 +188,14 @@ img { max-width: 100%; height: auto; display: block; }
   color: #ffffff;
 }
 
-.icon-btn svg { width: 26px; height: 26px; }
+.icon-btn svg { width: 22px; height: 22px; }
 
 .cv-btn {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  height: 58px;
-  padding: 0 26px;
+  gap: 9px;
+  height: 48px;
+  padding: 0 21px;
   margin-right: 8px;
   border: 2px solid #33495a;
   border-radius: 10px;
@@ -234,11 +235,11 @@ img { max-width: 100%; height: auto; display: block; }
 
 /* Layout */
 
-header.wrap { padding-top: 64px; padding-bottom: 56px; }
+header.wrap { padding-top: 52px; padding-bottom: 46px; }
 
 main {
   background: #eef0f1;
-  padding: 52px 0 110px;
+  padding: 42px 0 90px;
 }
 
 .tab-panel > .pubs:first-child { margin-top: 8px; }
@@ -305,7 +306,7 @@ h2 + .pubs, h3 + .pubs { margin-top: 32px; }
 }
 
 .pubs li {
-  margin: 0 0 42px;
+  margin: 0 0 34px;
   font-size: 1.55rem;
   line-height: 1.65;
 }
@@ -361,8 +362,8 @@ a.pub-title:hover {
   margin: 40px 0 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
-  gap: 56px 42px;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 46px 34px;
 }
 
 .media-grid a {
