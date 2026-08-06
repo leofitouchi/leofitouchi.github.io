@@ -60,7 +60,7 @@ img { max-width: 100%; height: auto; display: block; }
   position: relative;
   list-style: none;
   margin: 0;
-  padding: 7px;
+  padding: 6px;
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -77,9 +77,9 @@ img { max-width: 100%; height: auto; display: block; }
 
 .tabs__thumb {
   position: absolute;
-  top: 7px;
+  top: 6px;
   left: 0;
-  height: calc(100% - 14px);
+  height: calc(100% - 12px);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.95);
   box-shadow:
@@ -99,9 +99,9 @@ img { max-width: 100%; height: auto; display: block; }
   position: relative;
   z-index: 1;
   display: inline-block;
-  padding: 12px 27px;
+  padding: 8px 26px;
   border-radius: 999px;
-  font-size: 1.5rem;
+  font-size: 1.42rem;
   font-weight: 600;
   color: var(--muted);
   border: 0;
@@ -116,7 +116,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 .about {
   display: grid;
-  grid-template-columns: 395px 1fr;
+  grid-template-columns: 355px 1fr;
   gap: 44px;
   align-items: stretch;
 }
@@ -143,6 +143,14 @@ img { max-width: 100%; height: auto; display: block; }
   font-weight: 600;
   color: var(--accent);
   line-height: 1.4;
+}
+
+.about__affil {
+  margin: 4px 0 0;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--muted);
+  letter-spacing: 0.01em;
 }
 
 .about__labs {
